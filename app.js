@@ -27,6 +27,10 @@
 				url: '/applications',
 				component: 'applications'
 			})
+			.state('states',{
+				url:'/states',
+				component: 'states'
+			})
 			.state('search', {
 				url: '/search/:query',
 				component: 'search'
